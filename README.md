@@ -40,29 +40,32 @@ To get started with Groot, follow these steps:
 ## Usage
 ### Adding Files to Staging Area
 ```bash
-node groot.js
-create object
-obj.add(<FileName>)
+./Groot.js add
 
 ```
 
 ### commiting Files from Staging Area
 ```bash
-node groot.js
-obj.commit(<FileName>)
+./Groot.js commit <filename>
 
 ```
 
 ### show commit log
 
 ```bash
-obj.log()
+./Groot.js log
 ```
 
 ### show commits diffrence
 
 ```bash
-obj.showCommitDiff(<commit hash>)
+./Groot.js diff
+```
+
+### show status
+
+```bash
+./Groot.js status
 ```
 
 
