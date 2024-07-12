@@ -35,6 +35,9 @@ To get started with Groot, follow these steps:
 3. Install the required dependencies:
     ```bash
     npm install
+    npm install chalk
+    npm install commander
+    npm install diff
     ```
 
 ## Usage
